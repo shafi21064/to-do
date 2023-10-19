@@ -12,7 +12,7 @@ class Note {
     title = json['title'];
     subtitle = json['subtitle'];
     date = json['date'];
-    priority = json['priority'];
+    //priority = json['priority'];
   }
 
   Map<String, Object?> toMap() {
@@ -21,7 +21,7 @@ class Note {
       'title': title,
       'subtitle': subtitle,
       'date': date,
-      'priority': priority,
+      //'priority': priority,
     };
   }
 }
